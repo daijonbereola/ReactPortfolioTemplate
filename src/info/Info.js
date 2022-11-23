@@ -1,9 +1,11 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
+/*
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+*/
 import resume1 from "../img/resume1.png"
 import resume2 from "../img/resume2.png"
 
@@ -90,11 +92,12 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Portfolio",
+            live: "https://daijonbereola.github.io/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/daijonbereola/ReactPortfolioTemplate", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
+        /*
         {
             title: "Project 2",
             live: "https://paytonpierce.dev",
@@ -119,6 +122,7 @@ export const info = {
             source: "https://github.com/paytonjewell",
             image: mock5
         }
+        */
     ],
     resume:[
         {
