@@ -1,7 +1,7 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
-/*
 import mock2 from "../img/mock2.png"
+/*
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
@@ -97,13 +97,14 @@ export const info = {
             source: "https://github.com/daijonbereola/ReactPortfolioTemplate", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
-        /*
+        
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "To-Do App",
+            live: "https://daijonbereola.github.io/react-todo-app/",
+            source: "https://github.com/daijonbereola/react-todo-app",
             image: mock2
         },
+        /*
         {
             title: "Project 3",
             live: "https://paytonpierce.dev",
