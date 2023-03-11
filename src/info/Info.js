@@ -1,8 +1,8 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
-/*
 import mock3 from "../img/mock3.png"
+/*
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 */
@@ -30,22 +30,15 @@ export const info = {
     firstName: "Daijon",
     lastName: "Bereola-Carson",
     initials: "dbc", // the example uses first and last, but feel free to use three or more if you like.
-    position: "an Aspiring Frontend Developer",
+    position: "Let's work!",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '🌁',
-            text: 'Bay Area, CA'
-        },
-        {
-            emoji: "🎵",
-            text: "Music Lover"
-        },
-        {
             emoji: "📧",
-            text: "daijonbereola@gmail.com"
+            text: "daijonbereola@gmail.com",
+            link: "mailto:daijonbereola@gmail.com"
         }
     ],
     socials: [
@@ -73,15 +66,12 @@ export const info = {
     hobbies: [
         {
             label: 'photography',
+            link: 'https://www.instagram.com/justdayshots/',
             emoji: '📸'
         },
         {
             label: 'music',
             emoji: '🎹'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
         },
         {
             label: 'cooking',
@@ -104,13 +94,13 @@ export const info = {
             source: "https://github.com/daijonbereola/react-todo-app",
             image: mock2
         },
-        /*
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "BLM+",
+            live: "https://blue-movement.github.io/team1_2020/about",
+            source: "https://github.com/Blue-movement/team1_2020",
             image: mock3
         },
+        /*
         {
             title: "Project 4",
             live: "https://paytonpierce.dev",

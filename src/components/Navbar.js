@@ -12,20 +12,10 @@ const links = [
         active: 'home'
     },
     {
-        name: 'About Me',
-        to: '/about',
-        active: 'about'
-    },
-    {
         name: info.initials,
         type: 'initials',
         to: '/',
         active: 'home'
-    },
-    {
-        name: 'resume',
-        to:'/resume',
-        active: 'resume'
     },
     {
         name: 'Portfolio',
@@ -36,7 +26,7 @@ const links = [
 
 export default function Navbar({darkMode, handleClick}) {
     const location = useLocation()
-    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+    const [active, setActive] = useState(location.pathname === '/' ? 'about' : location.pathname.slice(1, location.pathname.length));
 
     return (
         <Box component={'nav'} width={'100%'}>

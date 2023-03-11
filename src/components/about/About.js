@@ -3,6 +3,8 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import Home from "../home/Home"
+import Resume from '../resume/Resume';
 
 
 export default function About() {
@@ -44,7 +46,7 @@ export default function About() {
                 className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box><a href={hobby.link}>{hobby.label}</a></li>
                 ))}
             </ul>
         </>;
@@ -52,9 +54,11 @@ export default function About() {
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
+            <Home />
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
+            <Resume />
         </Box>
     )
 }
