@@ -71,6 +71,7 @@ export const info = {
         },
         {
             label: 'music',
+            link: 'https://linktr.ee/daylists',
             emoji: '🎹'
         },
         {
