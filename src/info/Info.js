@@ -7,7 +7,6 @@ import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 */
 import resume1 from "../img/resume1.png"
-import resume2 from "../img/resume2.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -118,14 +117,9 @@ export const info = {
     ],
     resume:[
         {
-            title: "2022-2023 Resume",
-            link: "https://drive.google.com/file/d/11VujN5udVmPXohPVgpzVodcemZZ6POAh/view",
+            title: "2023 Resume",
+            link: "https://docs.google.com/document/d/1boLk35uLE5JU-QR14fr20dzKmlrzSXdgiQBqxvxru0w/edit?usp=sharing",
             image: resume1
-        },
-        {
-            title: "2022-2023 Decorated Resume",
-            link: "https://drive.google.com/file/d/1iCc1zOBtPtBssUMhyvWtwbA_uS3EPUsw/view?usp=sharing",
-            image: resume2
         }
     ]
 }

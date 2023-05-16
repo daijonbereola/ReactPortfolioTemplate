@@ -11,7 +11,7 @@ function ResumeBlock(props) {
          <Box className={'resume'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
               alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={link} title={'PDF Link'} icon={'fa fa-file-text'}/>
+               <IconLink link={link} title={'Doc Link'} icon={'fa fa-file-text'}/>
             </Box>
          </Box>
       </Box>
