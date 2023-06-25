@@ -2,6 +2,7 @@ import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
+import uimock1 from "../img/wenite-mockup.png"
 /*
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
@@ -80,40 +81,50 @@ export const info = {
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [
         {
-            title: "Portfolio",
-            live: "https://daijonbereola.github.io/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/daijonbereola/ReactPortfolioTemplate", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        
-        {
-            title: "To-Do App",
-            live: "https://daijonbereola.github.io/react-todo-app/",
-            source: "https://github.com/daijonbereola/react-todo-app",
-            image: mock2
-        },
-        {
-            title: "BLM+",
-            live: "https://blue-movement.github.io/team1_2020/about",
-            source: "https://github.com/Blue-movement/team1_2020",
-            image: mock3
-        },
-        /*
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            apps: [
+                {
+                    title: "Portfolio",
+                    live: "https://daijonbereola.github.io/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+                    source: "https://github.com/daijonbereola/ReactPortfolioTemplate", // this should be a link to the **repository** of the project, where the code is hosted.
+                    image: mock1
+                },
+                    
+                {
+                    title: "To-Do App",
+                    live: "https://daijonbereola.github.io/react-todo-app/",
+                    source: "https://github.com/daijonbereola/react-todo-app",
+                    image: mock2
+                },
+                {
+                    title: "BLM+",                        live: "https://blue-movement.github.io/team1_2020/about",
+                    source: "https://github.com/Blue-movement/team1_2020",
+                    image: mock3
+                },
+                /*
+                {
+                    title: "Project 4",
+                    live: "https://paytonpierce.dev",
+                        source: "https://github.com/paytonjewell",
+                    image: mock4
+                },
+                {
+                    title: "Project 5",
+                    live: "https://paytonpierce.dev",
+                    source: "https://github.com/paytonjewell",
+                    image: mock5
+                }
+                */
+            ],
+            ui: [
+                {
+                    title: "WENITE",
+                    link: "https://www.figma.com/file/iXRzMFzITeFFHDioWYK32z/WENITE-Prototype?type=design&node-id=0%3A1&mode=design&t=QniPHOliuXdw3Fuw-1",
+                    image: uimock1
+                },
+            ],
         }
-        */
     ],
     resume:[
         {
